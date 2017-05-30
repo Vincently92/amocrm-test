@@ -8,12 +8,12 @@
 class amo{
 
     #Поддомен
-    const subdomain = 'new592c615cc43fc';
+    const subdomain = '';
 
     #Массив с параметрами, которые нужно передать методом POST к API системы
     const user  = array (
-                        'USER_LOGIN'=>'bugaenko.leonid@gmail.com', #Ваш логин (электронная почта)
-                        'USER_HASH'=>'5c7d5017287b0ea76e5a3f14ee224731' #Хэш для доступа к API (смотрите в профиле пользователя)
+                        'USER_LOGIN'=>'', #Ваш логин (электронная почта)
+                        'USER_HASH'=>'' #Хэш для доступа к API (смотрите в профиле пользователя)
                     );
 
     public function auth(){
